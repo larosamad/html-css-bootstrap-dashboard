@@ -1,0 +1,11 @@
+nav{
+    background-color: aqua;
+}
+
+.form-control{
+    width: 80%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
