@@ -1,11 +1,40 @@
-nav{
-    background-color: aqua;
-}
-
-.form-control{
-    width: 80%;
-}
-
 .dropdown-toggle::after {
     display: none;
+}
+
+
+.logo-mobile img{
+    height: 50px;
+    width: auto;
+}
+
+.logo img{
+    height: 25px;
+    width: auto;
+}
+
+nav{
+    height: 50px;
+}
+
+main{
+    height: calc(100vh - 50px);
+}
+
+#side{
+    background-image: url(../img/sidebar-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: #051E34;
+    color: white;
+}
+
+.fa-house, .fa-chart-simple, .fa-signal{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 10px;
 }

@@ -12,14 +12,14 @@
     <title>Hello, world!</title>
     </head>
     <body>
-        <nav class="container-fluid d-flex align-items-center">
-            <div class="d-md-none d-inline-block col-1">
-                <img src="./assets/img/mobile-logo.png" alt="Logo" width="100%">
+        <nav class="container-fluid d-flex align-items-center bg-light">
+            <div class="d-md-none d-inline-block col-1 logo-mobile">
+                <img src="./assets/img/mobile-logo.png" alt="Logo">
             </div>
-            <div class="d-none d-md-inline-block col-1">
-                <img src="./assets/img/logo.svg" alt="Logo" width="100%">
+            <div class="d-none d-md-inline-block col-2 logo">
+                <img src="./assets/img/logo.svg" alt="Logo">
             </div>
-            <div class="container-fluid col-9">
+            <div class="container-fluid col-8">
                 <nav class="navbar navbar-light bg-light">
                     <form class="form-inline">
                         <div class="input-group">
@@ -48,6 +48,28 @@
                 </div>
             </div>
         </nav>
+
+        <main class="container-fluid">
+            <div class="row h-100">
+                <div class="col-2 p-2 px-0" id="side">
+                    <div class="text-md-left text-center">
+                        <i class="fa-solid fa-house"></i> <span class="d-none d-md-inline-block">Lorem</span>
+                    </div>
+                    <div class="text-md-left text-center">
+                        <i class="fa-solid fa-chart-simple"></i> <span class="d-none d-md-inline-block">Lorem</span>
+                    </div>
+                    <div class="text-md-left text-center">
+                        <i class="fa-solid fa-signal"></i> <span class="d-none d-md-inline-block">Lorem</span>
+                    </div>
+                </div> 
+
+                <div class="col-10 bg-secondary px-0">
+                    <div class="bg-primary p-2">
+                        <h2>Boolean</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
