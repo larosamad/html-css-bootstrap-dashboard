@@ -33,3 +33,16 @@ main{
     font-size: 25px;
     margin: 10px 5px;
 }
+
+.bg-custom-pill{
+    background-color: #2a5983;
+}
+
+.breadcrumb-item::before{
+    color: white !important;
+}
+
+.badge:hover{
+    background-color: #b0cae0;
+    cursor: pointer;
+}
