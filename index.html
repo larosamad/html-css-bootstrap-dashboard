@@ -76,7 +76,7 @@
                         </div>                
                 </div>
 
-                <div class="col-10 bg-secondary px-0 vh-100">
+                <div class="col-10 bg-secondary px-0" id="overflow">
                     <div class="bg-primary text-white d-flex p-4 flex-wrap">
                         <div class="col-md-8 col-12">
                             <div class="d-inline">
@@ -98,8 +98,197 @@
 
                         </div>
                         <div class="col-md-4">
-                            <h4>Studenti attivi</h4>
+                            <h6>Studenti attivi</h6>
+                            <h4>100</h4>
                         </div>
+                </div>
+                <div class="d-flex column flex-wrap">
+                    <div class="col-md-8 col-12 bg-light p-4">
+                        <div class="card">
+                            <div class="card-header d-flex justify-content-between">
+                                <div>Prossime Lezioni</div>
+                                <div>
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Forms</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+
+                                <div class="offcanvas-body">
+                                    <div class="row">
+                                        <div class="col">
+                                            <label for="basic-url" class="form-label">E-mail</label>
+
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <label for="basic-url" class="form-label">Password</label>
+
+                                            <div class="input-group mb-3 ">
+                                                <input type="password" class="form-control" aria-label="Password" aria-describedby="basic-addon2">
+                                            </div>   
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label for="basic-url" class="form-label">Città</label>
+                                            <div class="input-group mb-3">
+                                                <input type="text" class="form-control" aria-label="text" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+
+                                        <div class="col">
+                                            <label for="basic-url" class="form-label">Stato</label>
+                                            <div class="input-group mb-3 ">
+                                                <input type="password" class="form-control" aria-label="Password" aria-describedby="basic-addon2">
+                                            </div>   
+                                        </div>
+
+                                        <div class="col">
+                                            <label for="basic-url" class="form-label">CAP</label>
+                                            <div class="input-group mb-3 ">
+                                                <input type="password" class="form-control" aria-label="text" aria-describedby="basic-addon2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <label for="basic-url" class="form-label">Indirizzo</label>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                    </div>                                     
+                                
+                                    <label for="basic-url" class="form-label">Foto</label>
+                                    <div class="input-group mb-3">
+                                        <input type="file" class="form-control" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                                    </div>
+                                    
+                                    <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                    <label class="form-check-label" for="firstCheckbox">Seleziona per proseguire</label>
+
+                                    <div class="my-2">
+                                        <button type="button" class="btn btn-primary">Salva</button>
+                                        <button type="button" class="btn btn-warning">Svuota</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                            <div class="card-body">
+                                <table class="table fs-6">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="w-50">Nome</th>
+                                            <th scope="col" class="d-none d-lg-table-cell">Data inizio</th>
+                                            <th scope="col" class="d-none d-md-table-cell">ROI</th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-group-divider">
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-success">Done</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-success">Done</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-success">Done</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-success">Done</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-success">Done</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-warning">Process</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-success">Done</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Classe75</th>
+                                            <td class="d-none d-lg-table-cell">15 Feb 2021</td>
+                                            <td class="d-none d-md-table-cell">20%</td>
+                                            <td><span class="badge rounded-pill bg-danger">Failed</span></td>
+                                            <td>
+                                            <button type="button" class="btn btn-outline-dark me-1"><i class="fa-solid fa-pen"></i></button>
+                                            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-trash"></i></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="card my-3">
+                            <div class="card-header">
+                            Featured
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">An item</li>
+                                <li class="list-group-item">A second item</li>
+                                <li class="list-group-item">A third item</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-4 bg-dark">Lorem</div>
                 </div>
             </div>
 
